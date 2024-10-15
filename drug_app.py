@@ -11,6 +11,7 @@ app_mode = st.sidebar.selectbox("Select The Appropriate Option",["Home Page","Ab
 #importing libraries
 import pandas as pd
 import numpy as np
+import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
